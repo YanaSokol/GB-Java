@@ -14,16 +14,10 @@ public class HomeWorkApp {
         System.out.println("Apple");
     }
 
-    public static void checkSumSign() {
+   public static void checkSumSign() {
         int a = 10;
         int b = 30;
-
-        if (a + b >= 0) {
-            System.out.println("Сумма положительная");
-        }
-        else {
-            System.out.println("Сумма отрицательная");
-        }
+        System.out.println(a+b? "Сумма положительная": "Сумма отрицательная");
     }
 
     public static void printColor() {
