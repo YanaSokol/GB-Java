@@ -1,8 +1,8 @@
 package com.company;
 // @author Sokolova
 // @version 12.09.21 /
-public class HomeWork2 {
-    public static void main(String[] args) {
+class HomeWork2 {
+    static void main(String[] args) {
         System.out.println(within10and20(5,3));
         System.out.println(within10and20(-5,-3));
         System.out.println(PositiveNegativeNumber(10));
@@ -15,24 +15,23 @@ public class HomeWork2 {
     }
 
      // ** Первое задание
-    public static boolean within10and20(int x1, int x2) {
+     static boolean within10and20(int x1, int x2) {
         int sum = x1 + x2;
         return sum >= 10 && sum <= 20;
     }
 
     // ** Второе задание
-    public static String PositiveNegativeNumber(int a) {
+     static String PositiveNegativeNumber(int a) {
         return a >= 0 ? "Положительное" : "Отрицательное";
     }
 
     // ** Третье задание
-    public static String NegativeNumber(int a) {
+     static String NegativeNumber(int a) {
         return a <= 0 ? "true" : "false";
     }
 
     // ** Четвертое задание
-
-    public static void repeatString(String s, int count) {
+     static void repeatString(String s, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(s);
         }
