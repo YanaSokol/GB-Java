@@ -36,8 +36,7 @@ class HomeWork3 {
             System.out.println();
         }
 
-        int[][] arr5 = new int[15][5];
-        System.out.println(Arrays.toString(arr5));
+        
     }
 }
 
