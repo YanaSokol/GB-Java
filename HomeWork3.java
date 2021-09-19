@@ -36,10 +36,13 @@ class HomeWork3 {
             System.out.println();
         }
 
-         static int[] CreateAndReturnArr(int len, int initialValue){
-            int arr5[] = new int[len];
-            Arrays.fill(arr5, initialValue);
-            return arr5;
+        arr5(5,6);
+    }
+    static void arr5(int len, int initialValue){
+        int[] arr = new int[len];
+        for (int i = 0; i < len; i++) {
+            arr[i] = initialValue;
+            System.out.print("[" + i + "]" + arr[i] + " ");
         }
     }
 }
