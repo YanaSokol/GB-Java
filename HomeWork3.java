@@ -6,7 +6,7 @@
 import java.util.Arrays;
 
 class HomeWork3 {
-    static void main(String args[]){
+    static void main(String[] args){
         int[] arr1 = { 1, 0, 1, 0, 0, 1 };
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = 1 - arr1[i];
@@ -39,7 +39,7 @@ class HomeWork3 {
 
         arr5(5,6);
     }
-    static void arr5(int len, int initialValue){
+   static void arr5(int len, int initialValue){
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
             arr[i] = initialValue;
