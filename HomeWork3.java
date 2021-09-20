@@ -6,14 +6,14 @@
 import java.util.Arrays;
 
 class HomeWork3 {
-    static void main(String[] args){
+    public static void main(String[] args){
         int[] arr1 = { 1, 0, 1, 0, 0, 1 };
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = 1 - arr1[i];
         }
 
         int[] arr2 = new int[100];
-        for (int i = 1; i < arr2.length; i++) {
+        for (int i = 0; i < arr2.length; i++) {
             arr2[i] = i;
             System.out.println("arr[" + i + "] = " + arr2[i]);
         }
@@ -26,11 +26,11 @@ class HomeWork3 {
         }
         System.out.println(Arrays.toString(arr3));
 
-        int[][] arr4 = new int[4][4];
+        int counter = 1;
+        int[][] arr4 = new int[3][4];
         for (int i = 0; i < arr4.length; i++) {
             for (int j = 0; j < arr4.length; j++) {
-                int counter = 0;
-                arr4 [i][j] = counter;
+                arr4 [i][j] = 1;
                 System.out.print(arr4[i][j] + " ");
                 counter++;
             }
