@@ -29,6 +29,7 @@ class HomeWork3 {
         int[][] arr4 = new int[4][4];
         for (int i = 0; i < arr4.length; i++) {
             for (int j = 0; j < arr4.length; j++) {
+                int counter = 0;
                 arr4 [i][j] = counter;
                 System.out.print(arr4[i][j] + " ");
                 counter++;
