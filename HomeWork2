@@ -2,7 +2,7 @@ package com.company;
 // @author Sokolova
 // @version 12.09.21 /
 class HomeWork2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(within10and20(5,3));
         System.out.println(within10and20(-5,-3));
         System.out.println(PositiveNegativeNumber(10));
