@@ -5,12 +5,12 @@ class HomeWork2 {
     public static void main(String[] args) {
         System.out.println(within10and20(5,3));
         System.out.println(within10and20(-5,-3));
-        System.out.println(PositiveNegativeNumber(10));
-        System.out.println(PositiveNegativeNumber(0));
-        System.out.println(PositiveNegativeNumber(-10));
-        System.out.println(NegativeNumber(-10));
-        System.out.println(NegativeNumber(100));
-        System.out.println(NegativeNumber(0));
+        System.out.println(positiveNegativeNumber(10));
+        System.out.println(positiveNegativeNumber(0));
+        System.out.println(positiveNegativeNumber(-10));
+        System.out.println(negativeNumber(-10));
+        System.out.println(negativeNumber(100));
+        System.out.println(negativeNumber(0));
         repeatString("Repeat String, Java!", 5);
     }
 
@@ -21,12 +21,12 @@ class HomeWork2 {
     }
 
     // ** Второе задание
-     static String PositiveNegativeNumber(int a) {
+     static String positiveNegativeNumber(int a) {
         return a >= 0 ? "Положительное" : "Отрицательное";
     }
 
     // ** Третье задание
-     static String NegativeNumber(int a) {
+     static String negativeNumber(int a) {
         return a <= 0 ? "true" : "false";
     }
 
