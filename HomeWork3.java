@@ -37,7 +37,7 @@ class HomeWork3 {
             System.out.println();
         }
 
-        arr5(5,6);
+        arr5(6,6);
     }
    static void arr5(int len, int initialValue){
         int[] arr = new int[len];
