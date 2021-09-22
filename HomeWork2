@@ -14,24 +14,24 @@ class HomeWork2 {
         repeatString("Repeat String, Java!", 5);
     }
 
-     // ** Первое задание
-     static boolean within10and20(int x1, int x2) {
+    // ** Первое задание
+    static boolean within10and20(int x1, int x2) {
         int sum = x1 + x2;
         return sum >= 10 && sum <= 20;
     }
 
     // ** Второе задание
-     static String positiveNegativeNumber(int a) {
-        return a >= 0 ? "Положительное" : "Отрицательное";
+    static String positiveNegativeNumber(int a) {
+        return a <= 0 ? "Положительное" : "Отрицательное";
     }
 
     // ** Третье задание
-     static String negativeNumber(int a) {
-        return a <= 0 ? "true" : "false";
+    static boolean negativeNumber(int a) {
+        return a <= 0;
     }
 
     // ** Четвертое задание
-     static void repeatString(String s, int count) {
+    static void repeatString(String s, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(s);
         }
