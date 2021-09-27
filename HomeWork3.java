@@ -28,12 +28,8 @@ class HomeWork3 {
 
         int[][] arr4 = new int[4][4];
         for (int i = 0; i < arr4.length; i++) {
-            for (int j = 0; j < arr4.length; j++) {
-                arr4 [0][0] = 1;
-                arr4 [1][1] = 1;
-                arr4 [2][2] = 1;
-                arr4 [3][3] = 1;
-
+            for (int j = 0; j < arr4[i].length; j++) {
+                arr4 [i][i] = 1;
                 System.out.print(arr4[i][j] + " ");
             }
             System.out.println();
