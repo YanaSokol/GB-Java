@@ -5,12 +5,12 @@
 
 import java.util.Arrays;
 
-class HomeWork3 {
+class HomeWork3 { --привет для гита
     public static void main(String[] args){
         int[] arr1 = { 1, 0, 1, 0, 0, 1 };
         for (int i = 0; i < arr1.length; i++) {
             arr1[i] = 1 - arr1[i];
-        }
+        } --trial period
 
         int[] arr2 = new int[100];
         for (int i = 0; i < arr2.length; i++) {
